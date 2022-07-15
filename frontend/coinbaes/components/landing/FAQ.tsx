@@ -11,9 +11,9 @@ import {
 const FAQ = () => {
   const faqData = [
     {
-      question: "What is the Non-Fungible Coinbae project?",
+      question: "What is the Non-Fungible Polybae project?",
       answer:
-        "The non-fungible Coinbae project is a sample dapp that showcases a frontend boilerplate for a generic NFT minting project that can be built with the `NFT Dapp Starter Kit`.",
+        "The non-fungible Polybae project is a sample dapp that showcases a frontend boilerplate for a generic NFT minting project that can be built with the `NFT Dapp Starter Kit`.",
     },
     {
       question: "How can I build something like this of my own?",

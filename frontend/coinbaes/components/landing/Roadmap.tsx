@@ -10,12 +10,12 @@ const Roadmap = () => {
             <div className={styles.timeline}>
               <div className={styles.containerRight}>
                 <div className={styles.content}>
-                  <p>Yay mint some Coinbaes</p>
+                  <p>Yay mint some Polybaes</p>
                 </div>
               </div>
               <div className={styles.containerLeft}>
                 <div className={styles.content}>
-                  <p>Coinbaes sell out!</p>
+                  <p>Polybaes sell out!</p>
                 </div>
               </div>
               <div className={styles.containerRight}>

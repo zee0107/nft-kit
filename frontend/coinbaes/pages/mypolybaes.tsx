@@ -54,7 +54,7 @@ const NFTViewer: NextPage = () => {
     <div className={styles.background}>
       <div className={styles.container}>
         <main className={styles.mainCenter}>
-          <h1 className={styles.title}>My Coinbaes</h1>
+          <h1 className={styles.title}>My Polybaes</h1>
           {!isLoading ? (
             <>
               {tokens?.length > 0 && (
@@ -77,7 +77,7 @@ const NFTViewer: NextPage = () => {
               {(!tokens || tokens.length <= 0) && (
                 <>
                   <p style={{ color: "white", marginBottom: "2rem" }}>
-                    You don't own any Coinbaes yet. Wanna mint one?
+                    You don't own any Polybaes yet. Wanna mint one?
                   </p>
                   <HStack>
                     <Link href="/mint">
@@ -88,7 +88,7 @@ const NFTViewer: NextPage = () => {
                           borderRadius: "0",
                         }}
                       >
-                        ⚡️ mint coinbaes ⚡️
+                        ⚡️ mint Polybaes ⚡️
                       </Button>
                     </Link>
                   </HStack>

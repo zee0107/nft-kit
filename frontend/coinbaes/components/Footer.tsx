@@ -5,7 +5,7 @@ import { FaTelegram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className={`${styles.footer}`}>
-      <div className={styles.socials}>
+      {/*<div className={styles.socials}>
         {`Let's be frens!`}
         <IconButton
           aria-label="Search database"
@@ -19,7 +19,7 @@ const Footer = () => {
           variant="ghost"
           icon={<FaTelegram />}
         />
-      </div>
+      </div>*/}
       Made with ❤️ at Coinbase Wallet
     </footer>
   );

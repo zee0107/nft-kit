@@ -8,24 +8,24 @@ const SplashBanner = () => {
     <div id="splash">
       <div className={styles.background}>
         <main className={styles.main}>
-          <h1 className={styles.splashTitle}>Non-fungible Coinbaes</h1>
+          <h1 className={styles.splashTitle}>Non-fungible Polybaes</h1>
           <Link href="/mint">
             <Button
               style={{
-                fontFamily: "'Press Start 2P', cursive",
-                color: "#4b4f56",
-                borderRadius: "0",
+                color: "#ffffff",
+                backgroundColor: "#e31b25",
+                borderRadius: 20,
               }}
             >
               ⚡️ minting now ⚡️
             </Button>
           </Link>
-          <div className={styles.coinbaes}>
+          {/*<div className={styles.coinbaes}>
             <Image src="/assets/btc.png" height={300} width={300} />
             <Image src="/assets/eth.png" height={300} width={300} />
             <Image src="/assets/cbw.png" height={300} width={300} />
             <Image src="/assets/sol.png" height={300} width={300} />
-          </div>
+          </div>*/}
         </main>
       </div>
     </div>

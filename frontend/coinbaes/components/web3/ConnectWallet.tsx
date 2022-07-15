@@ -44,9 +44,9 @@ const ConnectWallet = ({ isMobile, size }: ConnectWalletProps) => {
           {!data ? (
             <Button
               style={{
-                fontFamily: "'Press Start 2P', cursive",
-                color: "#4b4f56",
-                borderRadius: "0",
+                color: "#ffffff",
+                backgroundColor: "#e31b25",
+                borderRadius: 20,
               }}
               onClick={connectOnOpen}
               size={size}
@@ -62,9 +62,10 @@ const ConnectWallet = ({ isMobile, size }: ConnectWalletProps) => {
                     as={Button}
                     rightIcon={<ChevronDownIcon />}
                     style={{
-                      fontFamily: "'Press Start 2P', cursive",
-                      color: "#4b4f56",
-                      borderRadius: "0",
+                      /*fontFamily: "'Press Start 2P', cursive",*/
+                      color: "#ffffff",
+                      backgroundColor: "#e31b25",
+                      borderRadius: 20,
                       overflow: "hidden",
                     }}
                   >
@@ -73,7 +74,7 @@ const ConnectWallet = ({ isMobile, size }: ConnectWalletProps) => {
                   <MenuList
                     color="black"
                     style={{
-                      fontFamily: "'Press Start 2P', cursive",
+                      /*fontFamily: "'Press Start 2P', cursive",*/
                       color: "#4b4f56",
                       borderRadius: "0",
                       width: "100%",
@@ -81,12 +82,12 @@ const ConnectWallet = ({ isMobile, size }: ConnectWalletProps) => {
                   >
                     <MenuItem>
                       <Link
-                        href="/mycoinbaes"
+                        href="/mypolybaes"
                         style={{
                           textDecoration: "none",
                         }}
                       >
-                        View My Coinbaes
+                        View My Polybaes
                       </Link>
                     </MenuItem>
                     <MenuItem
@@ -103,9 +104,9 @@ const ConnectWallet = ({ isMobile, size }: ConnectWalletProps) => {
           ) : (
             <Button
               style={{
-                fontFamily: "'Press Start 2P', cursive",
-                color: "#4b4f56",
-                borderRadius: "0",
+                color: "#ffffff",
+                backgroundColor: "#e31b25",
+                borderRadius: 20,
               }}
               onClick={() => switchNetwork && switchNetwork(CHAIN_ID)}
             >
@@ -123,8 +124,8 @@ const ConnectWallet = ({ isMobile, size }: ConnectWalletProps) => {
             </VStack>
           ) : (
             <VStack marginTop="20" spacing="24px" alignItems="flex-start">
-              <Link href="/mycoinbaes">
-                <button className={styles.button}>View My Coinbaes</button>
+              <Link href="/mypolybaes">
+                <button className={styles.button}>View My Polybaes</button>
               </Link>
               <Link
                 onClick={() => {

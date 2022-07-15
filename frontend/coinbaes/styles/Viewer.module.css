@@ -19,12 +19,12 @@
 
 .background {
   background-color: black;
-  background-image: url("../public/assets/bg-star.png");
-  background-size: cover;
+  /*background-image: url("../public/assets/bg-star.png");
+  background-size: cover;*/
 }
 
 .title {
-  font-family: "Press Start 2P", cursive;
+  /*font-family: "Press Start 2P", cursive;*/
   max-width: 1200px;
   margin: 0;
   line-height: 1.15;

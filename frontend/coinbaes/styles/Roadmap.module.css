@@ -8,8 +8,9 @@
 }
 
 .background {
-  background-image: url("../public/assets/bg-star.png");
-  background-size: cover;
+  /*background-image: url("../public/assets/bg-star.png");
+  background-size: cover;*/
+  background-color: #0e0e0ea7;
 }
 
 .title a {
@@ -24,7 +25,7 @@
 }
 
 .title {
-  font-family: "Press Start 2P", cursive;
+  /*font-family: "Press Start 2P", cursive;*/
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
@@ -127,7 +128,7 @@
   position: relative;
   border-radius: 6px;
 
-  font-family: "Press Start 2P", cursive;
+  /*font-family: "Press Start 2P", cursive;*/
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

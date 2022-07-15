@@ -57,7 +57,7 @@ const NavBar = () => {
           </Link>
         </div>
         <div className={styles.rightPartition}>
-          <a
+          {/*<a
             href="https://github.com/CoinbaseWallet/nft-dapp-starter-kit"
             target="_blank"
             rel="noreferrer"
@@ -74,9 +74,9 @@ const NavBar = () => {
             >
               Source code
             </Button>
-          </a>
+          </a>*/}
           <ConnectWallet size="md" />
-          <FaOpensea />
+          {/*<FaOpensea />
           <IconButton
             aria-label="twitter icon"
             size="lg"
@@ -90,7 +90,7 @@ const NavBar = () => {
             colorScheme="white"
             variant="ghost"
             icon={<FaDiscord />}
-          />
+          />*/}
         </div>
         <div className={styles.mobilePartition}>
           <IconButton
@@ -138,7 +138,7 @@ const NavBar = () => {
                 </Link>
                 <ConnectWallet isMobile size="xs" />
                 <Spacer />
-                <a
+                {/*<a
                   href="https://github.com/CoinbaseWallet/nft-dapp-starter-kit"
                   target="_blank"
                   rel="noreferrer"
@@ -170,7 +170,7 @@ const NavBar = () => {
                   colorScheme="whiteAlpha"
                   variant="ghost"
                   icon={<FaDiscord />}
-                />
+                  />*/}
               </Stack>
             </DrawerBody>
           </DrawerContent>

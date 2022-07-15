@@ -6,11 +6,12 @@
   justify-content: center;
   align-items: center;
 
-  background-image: url("../public/assets/bg-star.png");
-  background-size: cover;
+  background-color: #0e0e0e;
+  /*background-image: url("../public/assets/bg-star.png");
+  background-size: cover;*/
 
   color: white;
-  font-family: "Press Start 2P", cursive;
+  /*font-family: "Press Start 2P", cursive;*/
 }
 
 .footer a {
@@ -21,5 +22,5 @@
 }
 
 .socials {
-  margin-top: 1rem;
+  margin-top: 0px;
 }

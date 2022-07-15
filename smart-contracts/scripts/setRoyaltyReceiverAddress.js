@@ -2,7 +2,7 @@ require("dotenv").config();
 const hre = require("hardhat");
 
 async function main() {
-  const newRoyaltyAddress = "0x56ECc7D00bd338837E4d45047EaAec4843Ea810F"; // modify as needed
+  const newRoyaltyAddress = "0xb8726031fb7Ba9b3d8D348EaE9dd2d334b94711c"; // modify as needed
 
   const MyNFT = await hre.ethers.getContractFactory("MyNFT");
 

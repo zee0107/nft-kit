@@ -83,7 +83,7 @@ const Mint: NextPage = () => {
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Non-fungible Coinbaes
+            Non-fungible Polybaes
             <br />
             ⚡️ Pre-sale Minting Now ⚡️
           </h1>
@@ -99,7 +99,7 @@ const Mint: NextPage = () => {
                 You've successfully minted! Click here to view your newly minted
                 Coinbae
               </p>
-              <Link href="/mycoinbaes">
+              <Link href="/mypolybaes">
                 <Button
                   style={{
                     fontFamily: "'Press Start 2P', cursive",
@@ -176,9 +176,9 @@ const Mint: NextPage = () => {
               </NumberInput>
               <Button
                 style={{
-                  fontFamily: "'Press Start 2P', cursive",
-                  color: "#4b4f56",
-                  borderRadius: "0",
+                  color: "#ffffff",
+                  backgroundColor: "#e31b25",
+                  borderRadius: 20,
                 }}
                 onClick={handleMint}
               >

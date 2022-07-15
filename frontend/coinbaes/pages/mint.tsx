@@ -79,9 +79,7 @@ const Mint: NextPage = () => {
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Non-fungible Coinbaes
-            <br />
-            ⚡️ Minting Now ⚡️
+            Non-fungible Polybaes
           </h1>
           {hasMinted && publicSaleData ? (
             <VStack>
@@ -101,19 +99,20 @@ const Mint: NextPage = () => {
                 target="_blank"
                 rel="noreferrer"
                 style={{
-                  fontFamily: "'Press Start 2P', cursive",
+                  /*fontFamily: "'Press Start 2P', cursive",*/
                   color: "white",
                   borderRadius: "0",
                 }}
               >
                 Etherscan: {abridgeAddress(publicSaleData.hash)}
               </Link>
-              <Link href="/mycoinbaes">
+              <Link href="/myPolybaes">
                 <Button
                   style={{
-                    fontFamily: "'Press Start 2P', cursive",
-                    color: "#4b4f56",
-                    borderRadius: "0",
+                    /*fontFamily: "'Press Start 2P', cursive",*/
+                    color: "#ffffff",
+                    backgroundColor: "#e31b25",
+                    borderRadius: 20,
                   }}
                 >
                   View My Coinbae Collection
@@ -142,9 +141,10 @@ const Mint: NextPage = () => {
               <p style={{ color: "white" }}>You're on the wrong Network!</p>
               <Button
                 style={{
-                  fontFamily: "'Press Start 2P', cursive",
-                  color: "#4b4f56",
-                  borderRadius: "0",
+                  /*fontFamily: "'Press Start 2P', cursive",*/
+                  color: "#ffffff",
+                  backgroundColor: "#e31b25",
+                  borderRadius: 20,
                 }}
                 onClick={() => {
                   switchNetwork && switchNetwork(CHAIN_ID);
@@ -183,9 +183,9 @@ const Mint: NextPage = () => {
               </NumberInput>
               <Button
                 style={{
-                  fontFamily: "'Press Start 2P', cursive",
-                  color: "#4b4f56",
-                  borderRadius: "0",
+                  color: "#ffffff",
+                  backgroundColor: "#e31b25",
+                  borderRadius: 20,
                 }}
                 onClick={handlePublicMint}
               >

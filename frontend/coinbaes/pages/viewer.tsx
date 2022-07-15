@@ -42,9 +42,9 @@ const NFTViewer: NextPage = () => {
     <div className={styles.background}>
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1 className={styles.title}>Coinbae Viewer</h1>
+          <h1 className={styles.title}>Polybae Viewer</h1>
           <p style={{ color: "white", marginBottom: "2rem" }}>
-            Explore all the Coinbaes!
+            Explore all the Polybaes!
           </p>
           {!isLoading ? (
             <SimpleGrid columns={[1, 3, 5]} spacing={10}>
